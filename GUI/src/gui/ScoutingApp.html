@@ -38,9 +38,18 @@ tr {
 td {
     width: 33%;
     padding: auto;
+    text-align: center;
 }
 .col1 {
     width: 500px;
+}
+
+.col2 {
+    width: 1500px;
+}
+
+.col3 {
+    width: 750px;
 }
    </style>
     </head>
@@ -106,17 +115,47 @@ td {
         </table>
         <hr>
         <form>
-            <fieldset>
-            <legend>Personalia:</legend>
-            Name: <input type="text"><br>
-            Email: <input type="text"><br>
-            Date of birth: <input type="text"><br>
-            <input type="checkbox" name="vehicle" value="Bike">I have a bike
-            <br>
-            <input type="checkbox" name="vehicle" value="Car">I have a car
-            <br>
-            <input type="submit" value="Submit">
-            </fieldset>
+            <center><fieldset style="width: 85%">
+                <table align="center" style="width: 100%" border="3" cellpadding="5 " cellspacing="10">
+                    <thead>  
+                        <tr>
+                            <th class="col2"><b><u>Input</u></b></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="col3"><b>Auto</b></td>
+                            <td><b>Coop<b></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" name="vehicle" value="Bike">I have a bike</td>
+                            <td><input type="checkbox" name="vehicle" value="Car">I have a car</td>
+                        </tr>
+                        <tr>
+                           <td><input type="checkbox" name="vehicle" value="Bike">I have a bike</td>
+                           <td><input type="checkbox" name="vehicle" value="Car">I have a car</td>
+                        </tr>
+                        <tr>
+                           <td><input type="checkbox" name="vehicle" value="Bike">I have a bike</td>
+                           <td><input type="checkbox" name="vehicle" value="Car">I have a car</td>
+                        </tr>
+                        <tr>
+                           <td><input type="checkbox" name="vehicle" value="Bike">I have a bike</td>
+                           <td><input type="checkbox" name="vehicle" value="Car">I have a car</td>
+                        </tr>
+                        <tr>
+                          <td><input type="checkbox" name="vehicle" value="Bike">I have a bike</td>
+                          <td><input type="checkbox" name="vehicle" value="Car">I have a car</td>
+                        </tr>
+                        <tr>
+                           <td><input type="checkbox" name="vehicle" value="Bike">I have a bike</td>
+                            <td><input type="checkbox" name="vehicle" value="Car">I have a car</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <br>
+                <input type="submit" value="Submit">
+            </fieldset></center>
         </form>  
     </body>
  </html>
