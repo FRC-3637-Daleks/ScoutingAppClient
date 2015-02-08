@@ -5,7 +5,9 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
 <html>
-    <head> 
+    <head>
+    <link rel="icon" href="tabshortcuticon.ico">
+    <link rel="shortcut icon" href="tabshortcuticon.ico">
     <center><img src="daleks banner.jpg" alt="Hunterdon Central" style="width:500px;height:150px"></center>
         <title>Scouting App</title>
         <meta charset="UTF-8">
@@ -130,7 +132,7 @@ textarea {
         <center><b><font color="black" size=+2>Match Input</font></b>
         <br>
         <br>
-        <form>
+        <form action="info.php">
             <center><fieldset style="width: 85%">
                <table align="center" style="width: 100%" border="3" cellpadding="5 " cellspacing="10">
                         <thead>
@@ -140,8 +142,8 @@ textarea {
                     </thead>    
                     <tbody>
                         <tr>
-                            <td class="col3"><input type="checkbox" name="Robot" value="Robot">Robot</td>
-                            <td class="col3"><input type="checkbox" name="Goes For Bin On Step" value="Goes For Bin On Step">Goes For Bin On Step</td>
+                            <td class="col3"><input type="checkbox" name="Robot">Robot</td>
+                            <td class="col3"><input type="checkbox" name="Goes For Bin On Step">Goes For Bin On Step</td>
                         </tr>
                         <tr>
                            <td>Stack <select>
@@ -161,12 +163,12 @@ textarea {
                             <td><b>Mode</b></td>
                         </tr>
                         <tr>
-                            <td class="col3"><input type="checkbox" name="Vision Tracking" value="Vision Tracking">Vision Tracking</td>
-                            <td class="col3"><input type="checkbox" name="Over Bump" value="Over Bump">Over Bump</td>
+                            <td class="col3"><input type="checkbox" name="Vision Tracking">Vision Tracking</td>
+                            <td class="col3"><input type="checkbox" name="Over Bump">Over Bump</td>
                         </tr>
                         <tr>
-                            <td class="col3"><input type="checkbox" name="Dead Reckoning" value="Dead Reckoning">Dead Reckoning</td>
-                            <td class="col3"><input type="checkbox" name="Around" value="Around">Around</td>
+                            <td class="col3"><input type="checkbox" name="Dead Reckoning">Dead Reckoning</td>
+                            <td class="col3"><input type="checkbox" name="Around">Around</td>
                         </tr>
                     </tbody>
                 </table>
@@ -183,7 +185,7 @@ textarea {
                             <th>Can Handling</th>
                         </tr>
                         <tr>
-                           <td><input type="checkbox" name="Over Platform?" value="Over Platform?">Over Platform?</td>
+                           <td><input type="checkbox" name="Over Platform?">Over Platform?</td>
                            <td># of Totes Carried: <select>
                                 <option value="0">0</option>
                                 <option value="1">1</option>
@@ -195,7 +197,7 @@ textarea {
                                 <option value="7">7</option>
                                 <option value="8">8</option>
                            </select></td>
-                           <td><input type="checkbox" name="Put Into Container?" value="Put Into Container?">Able to Pick Up?</td>
+                           <td><input type="checkbox" name="Put Into Container?">Able to Pick Up?</td>
                         </tr>
                         <tr>
                            <td>Speed/Agility Rating (More=Better): <select>
@@ -203,7 +205,7 @@ textarea {
                                 <option value="1">2</option>
                                 <option value="2">3</option>
                            </select></td>
-                           <td><input type="checkbox" name="Different Orientations?" value="Different Orientations?">Different Orientations?</td>
+                           <td><input type="checkbox" name="Different Orientations?">Different Orientations?</td>
                            <td>Set Down Height: <select>
                                 <option value="0">0</option>
                                 <option value="1">1</option>
@@ -217,12 +219,12 @@ textarea {
                            </select></td>
                         </tr>
                         <tr>
-                           <td><input type="checkbox" name="Drops When Driving?" value="Drops When Driving?">Drops When Driving?</td>
-                           <td><input type="checkbox" name="Pick Up and/or Flip Upside Down?" value="Pick Up and/or Flip Upside Down?">Pick Up and/or Flip Upside Down?</td>
-                           <td><input type="checkbox" name="Takes From Step?" value="Takes From Step?">Takes From Step?</td>
+                           <td><input type="checkbox" name="Drops When Driving?">Drops When Driving?</td>
+                           <td><input type="checkbox" name="Pick Up and/or Flip Upside Down?">Pick Up and/or Flip Upside Down?</td>
+                           <td><input type="checkbox" name="Takes From Step?">Takes From Step?</td>
                         </tr>
                         <tr>
-                           <td><input type="checkbox" name="Knocks Over Stacks?" value="Knocks Over Stacks?">Knocks Over Stacks?</td>
+                           <td><input type="checkbox" name="Knocks Over Stacks?">Knocks Over Stacks?</td>
                            <td>Place On Top of: <select>
                                 <option value="0">0</option>
                                 <option value="1">1</option>
@@ -263,27 +265,27 @@ textarea {
                            <td><b>Human Player</b></td>
                         </tr>
                         <tr>
-                           <td><input type="checkbox" name="vehicle" value="Bike">I have a bike</td>
-                           <td><input type="checkbox" name="vehicle" value="Car">I have a car</td>
+                           <td><input type="checkbox" name="vehicle">I have a bike</td>
+                           <td><input type="checkbox" name="vehicle">I have a car</td>
                         </tr>
                         <tr>
-                           <td><input type="checkbox" name="vehicle" value="Bike">I have a bike</td>
-                           <td><input type="checkbox" name="vehicle" value="Car">I have a car</td>
+                           <td><input type="checkbox" name="vehicle">I have a bike</td>
+                           <td><input type="checkbox" name="vehicle">I have a car</td>
                         </tr>
                         <tr>
-                           <td><input type="checkbox" name="vehicle" value="Bike">I have a bike</td>
-                           <td><input type="checkbox" name="vehicle" value="Car">I have a car</td>
+                           <td><input type="checkbox" name="vehicle">I have a bike</td>
+                           <td><input type="checkbox" name="vehicle">I have a car</td>
                         </tr>
                     </tbody>
                 </table>
                 <br>
                 Comments:<br>
-                <textarea rows="5" columns="10" style="height: 75px; width: 300px" placeholder="Enter comments here" maxlength="75"></textarea>
+                <textarea rows="5" columns="10" style="height: 75px; width: 300px" placeholder="Enter Comments Here" maxlength="75"></textarea>
                 <br><br>
                 Team Score:<br>
-                <input type="text" name="comments" value="" style="width: 100px">
+                <input type="text" name="comments" style="width: 100px">
                 <br><br>
-                <input type="submit" value="Submit">
+                <input type="submit" value="Finish">
             </fieldset></center>
         </form>  
     </body>
