@@ -146,7 +146,11 @@ textarea {
                             <td class="col3"><input type="checkbox" name="Goes For Bin On Step">Goes For Bin On Step</td>
                         </tr>
                         <tr>
-                           <td>Stack <select>
+                           <th>Tote</th>
+                           <th>Mode</th>
+                        </tr>
+                        <tr>
+                            <td>Number Stacked: <select>
                                 <option value="0">0</option>
                                 <option value="1">1</option>
                                 <option value="2">2</option>
@@ -157,19 +161,15 @@ textarea {
                                 <option value="7">7</option>
                                 <option value="8">8</option>
                            </select></td>
-                           <td></td>
-                        </tr>
-                        <tr>
-                            <th>Tote</th>
-                            <th>Mode</th>
-                        </tr>
-                        <tr>
-                            <td class="col3"><input type="checkbox" name="Vision Tracking">Vision Tracking</td>
                             <td class="col3"><input type="checkbox" name="Over Bump">Over Bump</td>
                         </tr>
                         <tr>
-                            <td class="col3"><input type="checkbox" name="Dead Reckoning">Dead Reckoning</td>
+                            <td class="col3"><input type="checkbox" name="Vision Tracking">Vision Tracking</td>
                             <td class="col3"><input type="checkbox" name="Around">Around</td>
+                        </tr>
+                        <tr>
+                            <td class="col3"><input type="checkbox" name="Dead Reckoning">Dead Reckoning</td>
+                            <td></td>
                         </tr>
                     </tbody>
                 </table>
@@ -265,17 +265,27 @@ textarea {
                         <tr>
                             <td><input type="checkbox" name="Puts Into Container?">Puts Into Container?</td>
                             <td><input type="checkbox" name="Totes From Human Player">Totes From Human Player</td>
-                            <td></td>
+                            <td><b>Overall</b></td>
                         </tr>
                         <tr>
                             <td><input type="checkbox" name="Pick Up?">Pick Up?</td>
                             <td><input type="checkbox" name="Litter From Human Player">Litter From Human Player</td>
-                            <td></td>
+                            <td><input type="checkbox" name="Robot Failed To Function">Robot Failed To Function</td>
                         </tr>
                         <tr>
                             <td><input type="checkbox" name="Push?">Push?</td>
                             <td><input type="checkbox" name="Human Thrower">Human Thrower</td>
-                            <td></td>
+                            <td>Fouls Against Robot: <select>
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="7">8</option>
+                           </select></td>
                         </tr>
                     </tbody>
                 </table>
