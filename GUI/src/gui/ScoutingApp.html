@@ -216,7 +216,7 @@ textarea {
                                 <option value="5">5</option>
                                 <option value="6">6</option>
                                 <option value="7">7</option>
-                                <option value="7">8</option>
+                                <option value="8">8</option>
                            </select></td>
                         </tr>
                         <tr>
@@ -235,7 +235,7 @@ textarea {
                                 <option value="5">5</option>
                                 <option value="6">6</option>
                                 <option value="7">7</option>
-                                <option value="7">8</option>
+                                <option value="8">8</option>
                            </select></td>
                            <td>Pick Up Speed: <select>
                                 <option value="Slow">Slow</option>
@@ -265,17 +265,35 @@ textarea {
                         <tr>
                             <td><input type="checkbox" name="Puts Into Container?">Puts Into Container?</td>
                             <td><input type="checkbox" name="Totes From Human Player">Totes From Human Player</td>
-                            <td><b>Overall</b></td>
+                            <td></td>
                         </tr>
                         <tr>
                             <td><input type="checkbox" name="Pick Up?">Pick Up?</td>
                             <td><input type="checkbox" name="Litter From Human Player">Litter From Human Player</td>
-                            <td><input type="checkbox" name="Robot Failed To Function">Robot Failed To Function</td>
+                            <td></td>
                         </tr>
                         <tr>
                             <td><input type="checkbox" name="Push?">Push?</td>
                             <td><input type="checkbox" name="Human Thrower">Human Thrower</td>
-                            <td>Fouls Against Robot: <select>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+                    <table align="center" style="width: 100%" border="3" cellpadding="5 " cellspacing="10">
+                    <thead>  
+                        <tr>
+                            <th class="col2">Post Game</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                           
+                           <td class="col3"><b>Coopertition</b></td>
+                           <td><b>Problems</b></td>
+                        </tr>
+                        <tr>
+                           <td><input type="checkbox" name="Puts Yellow Tote On Step">Puts Yellow Tote On Step: </td>
+                           <td>Yellow Stack On Step: <select>
                                 <option value="0">0</option>
                                 <option value="1">1</option>
                                 <option value="2">2</option>
@@ -284,42 +302,37 @@ textarea {
                                 <option value="5">5</option>
                                 <option value="6">6</option>
                                 <option value="7">7</option>
-                                <option value="7">8</option>
+                                <option value="8">8</option>
                            </select></td>
                         </tr>
+                        <tr>
+                           <td><input type="checkbox" name="vehicle">I have a bike</td>
+                           <td>Fouls Against Robot: <select>
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                           </select></td>
+                        </tr>
+                        <tr>
+                            <td style="height: 20px"></td>
+                            <td> </td>
+                        </tr>
+                        <tr>
+                            <td><b>Comments</b></td>
+                            <td><b>Team Score</b></td>
+                        </tr>
+                        <tr>
+                           <td><textarea rows="5" columns="10" style="height: 30px; width: 500px" placeholder="Enter Comments Here" maxlength="75"></textarea></td>
+                           <td><input type="text" name="comments" style="height: 30px; width: 100px"></td>
+                        </tr>
                     </tbody>
                 </table>
-                    <table align="center" style="width: 100%" border="3" cellpadding="5 " cellspacing="10">
-                    <thead>  
-                        <tr>
-                            <th class="col2">Input</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                           
-                           <td><b>Human Player</b></td>
-                        </tr>
-                        <tr>
-                           <td><input type="checkbox" name="vehicle">I have a bike</td>
-                           <td><input type="checkbox" name="vehicle">I have a car</td>
-                        </tr>
-                        <tr>
-                           <td><input type="checkbox" name="vehicle">I have a bike</td>
-                           <td><input type="checkbox" name="vehicle">I have a car</td>
-                        </tr>
-                        <tr>
-                           <td><input type="checkbox" name="vehicle">I have a bike</td>
-                           <td><input type="checkbox" name="vehicle">I have a car</td>
-                        </tr>
-                    </tbody>
-                </table>
-                <br>
-                Comments:<br>
-                <textarea rows="5" columns="10" style="height: 75px; width: 300px" placeholder="Enter Comments Here" maxlength="75"></textarea>
-                <br><br>
-                Team Score:<br>
-                <input type="text" name="comments" style="width: 100px">
                 <br><br>
                 <input type="submit" value="Finish">
             </fieldset></center>
