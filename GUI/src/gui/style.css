@@ -44,6 +44,14 @@ td {
     padding: auto;
     text-align: center;
 }
+
+th {
+    width: 600px;
+    padding: auto;
+    text-align: center;
+}
+
+
 .col1 {
     width: 500px;
 }
