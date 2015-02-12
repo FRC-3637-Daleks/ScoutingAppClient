@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <link rel="icon" type="image/icon" href="favicon.ico">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script type="text/javascript" src="jquery-2.1.3.min.js"></script>
+        <script type="text/javascript" src="gui.js"></script>
+        <title>Team 3637 Scouting App</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+    	<center><img src="daleks_banner.jpg" alt="Hunterdon Central"></center>
+    	<hr>
+        <div><center><b><font color="black" size=+2>Scouting App History</font></b></center>
+        <br>
+        <center>
+        
+        </center>
+        <table align="center" style="width: 100%" border="3" align="right" cellpadding="5" cellspacing="10">  
+            <thead>  
+                <tr>
+                    <th class="col1"><u>Autonomous</u></th>
+                    <th class="col1"><u>Teleop</u></th>
+                    <th class="col1"><u>Post Game</u></th>
+                </tr>
+            </thead>
+            <div style="width: 85%" >
+            <tbody>
+                <tr>
+                    <td>Tim</td>
+                    <td>Altonji</td>
+                    <td>15</td>
+                    <td>15</td>
+                    <td>15</td>
+                    <td>15</td>
+                    
+                </tr>
+                <tr>
+                    <td>John</td>
+                    <td>Amoia</td>
+                    <td>15</td>
+                </tr>
+                <tr>
+                    <td>Andrew</td>
+                    <td>Russomagno</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td>Ryan</td>
+                    <td>Cathcart</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td>Andrew</td>
+                    <td>Russomagno</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td>Andrew</td>
+                    <td>Russomagno</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td>Andrew</td>
+                    <td>Russomagno</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td>Andrew</td>
+                    <td>Russomagno</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td>Andrew</td>
+                    <td>Russomagno</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td>Andrew</td>
+                    <td>Russomagno</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td>Andrew</td>
+                    <td>Russomagno</td>
+                    <td>16</td>
+                </tr>
+            </tbody>
+            </div>
+        </table>
+        
+        <br>
+        <hr>
+        <center><b><font color="black" size=+2>Match Input</font></b>
+        <br>
+        <br>
+        <form action="info.php">
+            <center><fieldset style="width: 85%">
+               <table align="center" style="width: 100%" border="3" cellpadding="5 " cellspacing="10">
+                    <thead>
+                        <tr>
+                            <th class="col2">Autonomous</th>
+                        </tr>
+                    </thead>    
+                    <tbody>
+                        <tr>
+                            <td class="col3"><input type="checkbox" name="Robot">Robot</td>
+                            <td class="col3"><input type="checkbox" name="Goes For Bin On Step">Goes For Bin On Step</td>
+                        </tr>
+                        <tr>
+                           <th>Tote</th>
+                           <th>Mode</th>
+                        </tr>
+                        <tr>
+                            <td>Number Stacked: <select>
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                           </select></td>
+                            <td class="col3"><input type="checkbox" name="Over Bump">Over Bump</td>
+                        </tr>
+                        <tr>
+                            <td class="col3"><input type="checkbox" name="Vision Tracking">Vision Tracking</td>
+                            <td class="col3"><input type="checkbox" name="Around">Around</td>
+                        </tr>
+                        <tr>
+                            <td class="col3"><input type="checkbox" name="Dead Reckoning">Dead Reckoning</td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table align="center" style="width: 100%" border="3" cellpadding="5 " cellspacing="10">   
+                    <thead>    
+                        <tr>
+                            <th class="col2">Teleop</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th class="col4">Driving and Stability</th>
+                            <th>Totes Handling</th>
+                            <th>Can Handling</th>
+                        </tr>
+                        <tr>
+                           <td><input type="checkbox" name="Over Platform?">Over Platform?</td>
+                           <td># of Totes Carried: <select>
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                           </select></td>
+                           <td><input type="checkbox" name="Put Into Container?">Able to Pick Up?</td>
+                        </tr>
+                        <tr>
+                           <td>Speed/Agility Rating (More=Better): <select>
+                                <option value="0">1</option>
+                                <option value="1">2</option>
+                                <option value="2">3</option>
+                           </select></td>
+                           <td><input type="checkbox" name="Different Orientations?">Different Orientations?</td>
+                           <td>Set Down Height: <select>
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                           </select></td>
+                        </tr>
+                        <tr>
+                           <td><input type="checkbox" name="Drops When Driving?">Drops When Driving?</td>
+                           <td><input type="checkbox" name="Pick Up and/or Flip Upside Down?">Pick Up and/or Flip Upside Down?</td>
+                           <td><input type="checkbox" name="Takes From Step?">Takes From Step?</td>
+                        </tr>
+                        <tr>
+                           <td><input type="checkbox" name="Knocks Over Stacks?">Knocks Over Stacks?</td>
+                           <td>Place On Top of: <select>
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                           </select></td>
+                           <td>Pick Up Speed: <select>
+                                <option value="Slow">Slow</option>
+                                <option value="Moderate">Moderate</option>
+                                <option value="Fast">Fast</option>
+                           </select></td>
+                        </tr>
+                        <tr>
+                           <td></td>
+                           <td>Pick Up Speed: <select>
+                                <option value="Slow">Slow</option>
+                                <option value="Moderate">Moderate</option>
+                                <option value="Fast">Fast</option>
+                           </select></td>
+                           <td><input type="checkbox" name="Different Orientations?">Different Orientations?</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td><input type="checkbox" name="Remove From Step w/out Clear Landfill?">Remove From Step w/out Clear Landfill?</td>
+                        </tr>
+                        <tr>
+                            <th>Litter Handling</th>
+                            <th>Human Player</th>
+                            <th></th>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" name="Puts Into Container?">Puts Into Container?</td>
+                            <td><input type="checkbox" name="Totes From Human Player">Totes From Human Player</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" name="Pick Up?">Pick Up?</td>
+                            <td><input type="checkbox" name="Litter From Human Player">Litter From Human Player</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" name="Push?">Push?</td>
+                            <td><input type="checkbox" name="Human Thrower">Human Thrower</td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table align="center" style="width: 100%" border="3" cellpadding="5 " cellspacing="10">
+                    <thead>  
+                        <tr>
+                            <th class="col2">Post Game</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                           
+                           <td class="col3"><b>Coopertition</b></td>
+                           <td><b>Problems</b></td>
+                        </tr>
+                        <tr>
+                           <td><input type="checkbox" name="Puts Yellow Tote On Step">Puts Yellow Tote On Step: </td>
+                           <td>Yellow Stack On Step: <select>
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                           </select></td>
+                        </tr>
+                        <tr>
+                           <td><input type="checkbox" name="vehicle">I have a bike</td>
+                           <td>Fouls Against Robot: <select>
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                           </select></td>
+                        </tr>
+                        <tr>
+                            <td style="height: 20px"></td>
+                            <td> </td>
+                        </tr>
+                        <tr>
+                            <th>Comments<p><textarea rows="5" columns="10" style="height: 30px; width: 400px" placeholder="Enter Comments Here" maxlength="75">				</textarea></th>
+                            <th>Team Score<p><input type="text" name="comments" style="height: 30px; width: 100px"></th>
+                        </tr>
+                    </tbody>
+                </table>
+                <br>
+                <input type="submit" value="Submit">
+            </fieldset></center>
+        </form>  
+    </body>
+ </html>
