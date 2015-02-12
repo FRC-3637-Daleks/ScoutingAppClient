@@ -15,9 +15,11 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-    	<center><img src="daleks_banner.jpg" alt="Hunterdon Central"></center>
+        <div style="height: 177px">
+        <center><img src="daleks_banner.jpg" alt="Hunterdon Central"></center>
+        </div>
     	<hr>
-        <div><center><b><font color="black" size=+2>Scouting App History</font></b></center>
+        <div><center><b><font color="black" size=+2>Team Match History</font></b></center>
         <br>  
         <table align="center" style="width: 1000px" border="3" align="right" cellpadding="5" cellspacing="10">  
             <thead>  
@@ -84,7 +86,7 @@ and open the template in the editor.
         <center><b><font color="black" size=+2>Match Input</font></b>
         <br>
         <br>
-        <form action="info.php">
+        <form action="info.php" id="form">
             <center><fieldset style="width: 85%">
                <table align="center" style="width: 100%; table-layout:fixed;" border="3" cellpadding="5 " cellspacing="10">
                     <thead>
@@ -272,12 +274,8 @@ and open the template in the editor.
                            </select></td>
                         </tr>
                         <tr>
-                            <td style="height: 20px"></td>
-                            <td> </td>
-                        </tr>
-                        <tr>
-                            <th>Comments<p><textarea rows="5" columns="10" style="height: 30px; width: 400px" placeholder="Enter Comments Here" maxlength="75">				</textarea></th>
-                            <th>Team Score<p><input type="text" name="comments" style="height: 30px; width: 100px"></th>
+                            <th>Comments<p><textarea form="form" style="height: 30px; width: 400px; background-color: white" placeholder="Enter Comments Here" maxlength="75"></textarea></th>
+                    <th>Team Score<p><textarea form="form" style="height: 16px; width: 50px; background-color: white; text-align: center;"; maxlength="3"; ></textarea></th>
                         </tr>
                     </tbody>
                 </table>
