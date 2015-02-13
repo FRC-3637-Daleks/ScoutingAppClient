@@ -12,10 +12,9 @@ p  {
 }
 
 table {
-    width: 1100px;
     display: block;
     margin-top:0px;
-    overflow-x: auto; 
+    overflow-x: scroll; 
 }
 
 thead {
@@ -27,8 +26,8 @@ thead {
 
 tbody {
     height: auto;
-    display: inline-block;
-    width: 100%;
+    display: block;
+    width: 1000px;
     overflow-y: auto;
     background-color:#5F5D63;
 }
@@ -39,20 +38,19 @@ tr {
 }
 
 td {
-    width: 600px;
     padding: auto;
     text-align: center;
 }
 
 th {
-    width: 600px;
+    width: 33%;
     padding: auto;
     text-align: center;
 }
 
 
 .col1 {
-    width: 500px;
+    width: 100px;
 }
 
 .col2 {
