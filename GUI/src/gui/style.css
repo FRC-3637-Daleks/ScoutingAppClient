@@ -68,3 +68,9 @@ textarea {
     resize: none;
     background-color:#D4D4D4;
 }
+
+#robotPic {
+    position: absolute;
+    top: 18px;
+    right: 25px;
+}
