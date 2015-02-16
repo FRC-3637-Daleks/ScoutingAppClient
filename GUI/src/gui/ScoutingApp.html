@@ -23,37 +23,41 @@
                 <tr>
                     <th class="col1"><u>Robot_Moves</u></th>
                     <th><u>Goes_for_Bin</u></th>
-        <th class="col1"><u>#Totes</u></th> 
-        <th class="col1"><u>Vision_Tracking</u></th>
-        <th class="col1"><u>Dead_Reckoning</u></th>
-        <th class="col1"><u>Over_Bump</u></th>
-        <th class="col1"><u>Around_Bump</u></th>
-        <th class="col1"><u>Stable_Over_Platform</u></th>
-        <th class="col1"><u>Speed/Agility</u></th>
-        <th class="col1"><u>Drops_when_Driving</u></th>
-        <th class="col1"><u>Knocks_Stacks</u></th>
-        <th class="col1"><u>Puts_into_Container</u></th>
-        <th class="col1"><u>Pick_up?</u></th>
-        <th class="col1"><u>Push</u></th>
-        <th class="col1"><u>#of_Totes_Carried</u></th>
-        <th class="col1"><u>Different_Orientations</u></th>
-        <th class="col1"><u>Pick_up/Flip_Upside_Down</u></th>
-        <th class="col1"><u>Place_On_Top</u></th>
-        <th class="col1"><u>Pick_Up_Speed</u></th>
-        <th class="col1"><u>Totes_From_Human</u></th>
-        <th class="col1"><u>Litter_From_Human</u></th>
-        <th class="col1"><u>Human_Thrower</u></th>
-        <th class="col1"><u>Able_to_Pick Up</u></th>
-        <th class="col1"><u>Set_Do_Height</u></th>
-        <th class="col1"><u>Takes_From_Step</u></th>
-        <th class="col1"><u>Pick_Up_Speed</u></th>
-        <th class="col1"><u>Different_Orientations</u></th>
-        <th class="col1"><u>Remove_From_Step_W/Put_Clear_Landfill?</u></th>
-        <th class="col1"><u>Puts_Yellow_Tote_On_Step</u></th>
-        <th class="col1"><u>Yellow_Stack_On_Step</u></th>
-        <th class="col1"><u>Robot_Fails_To_Function</u></th>
-        <th class="col1"><u>Fouls_Against_Robot</u></th>
-        </tr>
+                    <th class="col1"><u>#Totes</u></th> 
+                    <th class="col1"><u>Vision_Tracking</u></th>
+                    <th class="col1"><u>Dead_Reckoning</u></th>
+                    <th class="col1"><u>Over_Bump</u></th>
+                    <th class="col1"><u>Around_Bump</u></th>
+                    <th class="col1"><u>Stable_Over_Platform</u></th>
+                    <th class="col1"><u>Speed/Agility</u></th>
+                    <th class="col1"><u>Drops_when_Driving</u></th>
+                    <th class="col1"><u>Knocks_Stacks</u></th>
+                    <th class="col1"><u>Puts_into_Container</u></th>
+                    <th class="col1"><u>Pick_up?</u></th>
+                    <th class="col1"><u>Push</u></th>
+                    <th class="col1"><u>#of_Totes_Carried</u></th>
+                    <th class="col1"><u>Different_Orientations</u></th>
+                    <th class="col1"><u>Pick_up/Flip_Upside_Down</u></th>
+                    <th class="col1"><u>Place_On_Top</u></th>
+                    <th class="col1"><u>Pick_Up_Speed</u></th>
+                    <th class="col1"><u>Totes_From_Human</u></th>
+                    <th class="col1"><u>Litter_From_Human</u></th>
+                    <th class="col1"><u>Human_Thrower</u></th>
+                    <th class="col1"><u>Able_to_Pick Up</u></th>
+                    <th class="col1"><u>Set_Do_Height</u></th>
+                    <th class="col1"><u>Takes_From_Step</u></th>
+                    <th class="col1"><u>Pick_Up_Speed</u></th>
+                    <th class="col1"><u>Different_Orientations</u></th>
+                    <th class="col1"><u>Remove_From_Step_W/Put_Clear_Landfill?</u></th>
+                    <th class="col1"><u>Puts_Yellow_Tote_On_Step</u></th>
+                    <th class="col1"><u>Yellow_Stack_On_Step</u></th>
+                    <th class="col1"><u>Robot_Fails_To_Function</u></th>
+                    <th class="col1"><u>Fouls_A_Lot</u></th>
+                    <th class="col1"><u>Dead_On_Arrival</u></th>
+                    <th class="col1"><u>Tips_Over</u></th>
+                    <th class="col1"><u>Comm_Error</u></th>
+                    <th class="col1"><u>Poor_Construction_Integrity</u></th>
+                </tr>
             </thead>
             <tbody style="height: 300px;">
                 <tr>
@@ -227,7 +231,7 @@
                         </tr>
                         <tr>
                            <td class="check"><input type="checkbox" name="Puts Yellow Tote On Step">Puts Yellow Tote On Step</td>
-                           <td><input type="checkbox" name="Robot Fails To Function">Robot Fails To Function</td>
+                           <td class="check"><input type="checkbox" name="Robot Fails To Function">Robot Fails To Function</td>
                         </tr>
                         <tr>
                             <td>Yellow Stack On Step: <select>
@@ -241,21 +245,27 @@
                                 <option value="7">7</option>
                                 <option value="8">8</option>
                            </select></td>
-                            <td>Fouls Against Robot: <select>
-                                <option value="0">0</option>
-                                <option value="1">1</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4">4</option>
-                                <option value="5">5</option>
-                                <option value="6">6</option>
-                                <option value="7">7</option>
-                                <option value="8">8</option>
-                           </select></td>
+                            <td><input type="checkbox" name="Fouls Against Robot">Fouls A Lot</td>
+                        </tr>
+                        <tr>
+                           <td></td>
+                           <td class="check"><input type="checkbox" name="Dead On Arrival">Dead On Arrival</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                           <td class="check"><input type="checkbox" name="Tips Over">Tips Over</td>
+                        </tr>
+                        <tr>
+                           <td></td>
+                           <td class="check"><input type="checkbox" name="Comm Error">Comm Error</td>
+                        </tr>
+                        <tr>
+                           <td></td>
+                           <td class="check"><input type="checkbox" name="Poor Construction Integrity">Poor Construction Integrity</td>
                         </tr>
                         <tr>
                             <th>Comments<p><textarea form="form" style="height: 30px; width: 400px; background-color: white" placeholder="Enter Comments Here" maxlength="75"></textarea></th>
-                    <th>Team Score<p><textarea form="form" style="height: 16px; width: 50px; background-color: white; text-align: center;"; maxlength="3";></textarea></th>
+                            <th>Team Score<p><textarea form="form" style="height: 16px; width: 50px; background-color: white; text-align: center;"; maxlength="3";></textarea></th>
                         </tr>
                     </tbody>
                 </table>
